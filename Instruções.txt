@@ -1,0 +1,49 @@
+A aplicação deve ser produzida com a seguinte organização e padrão - 
+
++ UI/UX Design
+-Telas Professor
+  °Inicio
+  °Login
+  °Cadastro
+  °Dashboard Principal
+  °Vidrarias
+  °Reagentes
+  °Maquinas e EPIs
+  °Solicitações
+  °Alunos
+  °COnfigurações
+
+-Telas Alunos
+  °Inicio
+  °Login
+  °Cadastro
+  °Dashboard Principal
+  °Vidrarias
+  °Reagentes
+  °Maquinas e EPIs
+  °COnfigurações
+  
+  
++Front-End
+-Equipe 01
+  °Telas Professor
+-Equipe 02
+  °Telas Alunos
+  
++Back-end
+-Equipe Unica
+  Aplicação de arquivos HTML E CSS na extensão PHP
+  Configurações de cada setor utilizando a pasta "ASSENTS"
+  Aplicação do material Geral para professor
+  Aplicação do material Parcial para aluno
+  Controle de Segurança de Acesso
+  Verificação e diferenciação dos niveis de acesso por email do Administrador Sênior
+  Revisão de Codigo
+  
+  
++Banco de Dados
+-Equipe Unica
+  Criação de Banco de Dados com MySQL e PHPmyAdmin
+  Esquematização do percuso de dados
+  Visualização Correta dos dados em tabela
+  Conversão do banco de dados em planilha Excel
