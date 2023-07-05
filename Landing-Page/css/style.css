@@ -12,7 +12,13 @@ html {
   scroll-padding-top: 90px;
 }
 
+body::-webkit-scrollbar{
+  width: 12px;
+}
 
+body::-webkit-scrollbar-thumb {
+  background-color: #0193BA;
+}
 body {
   background-color: #fff;
 }
@@ -82,7 +88,7 @@ nav {
   justify-content: center;
   position: sticky;
   top: 0px;
-  z-index: 100;
+  z-index: 9999;
 }
 
 nav ul {
@@ -115,9 +121,11 @@ main section {
   width: 100%;
   height: 400px;
   background-color: #f1f1f1;
-  padding: 45px;
+  padding: 50px;
   margin-bottom: 50px;
 }
+
+.section{visibility: hidden;}
 
 main section h1{
   font-weight: 900;
@@ -193,6 +201,16 @@ main section p{
   align-items: center;
   justify-content: space-around;
 }
+
+.txt-left a{
+  color: black;
+  text-decoration: none;
+}
+.txt-left a:hover{
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+
 .title{
   flex-direction: column;
 }
@@ -293,13 +311,49 @@ main section p{
   background-color: #1771E6;
 }
 
-#whatsapp{
-  background-color: #34D251;
+#youtube{
+  background-color: #F70101;
+}
+
+#site{
+  text-decoration: none;
+}
+
+#courses-links a{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 8px;
+}
+#courses-links a:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+#more-links a{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 8px;
+}
+#more-links a:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+#site:hover{
+  text-decoration: underline;
+  text-decoration-color: white;
 }
 
 #left p{
   color: white;
   font-size: 18px;
   margin-top: 5px;
+}
+
+#copyright{
+  color: white;
+  margin-top: 50px;
 }
 

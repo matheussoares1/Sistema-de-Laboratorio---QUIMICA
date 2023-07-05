@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Sistema de Laboratório de Química</title>
+        <script src="https://unpkg.com/scrollreveal"></script>
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -29,49 +30,55 @@
             </div>
         </header>
         <main>
-           <section id="apresentacao">
+
+           <section id="apresentacao" class="section">
             <h1>Apresentação</h1>
             <p>
                 Olá, Bem vindos ao Sistema do Laboratório de Química! Esse sitema foi criado por alunos da instituição
                 com o objetivo de unicamente organizar melhor o laboratório de química da escola. A ideia foi dado por um de nossos professores e desenvolvida por nossos alunos. 
             </p>
             </section>
-           <section id="servicos">
+
+           <section id="servicos" class="section">
             <div id="img-left">
                 <div id="bottle-div">
                 <img src="assets/bottle.svg" id="bottle" alt="Bottle">
             </div>
+
             </div>
             <div id="text-right">
                 <h1>Serviços Oferecidos:</h1> 
                 <ul>
-                    <li>Dashboard para o Professor</li>
                     <li>Dashboard do Aluno</li>
-                    <li>Dashboard do Aluno</li>
-                    <li>Dashboard do Aluno</li>
+                    <li>Dashboard do Professor</li>
+                    <li></li>
+                    <li></li>
                 </ul>
             </div>
            </section>
-           <section id="imagens">
+           <section id="imagens" class="section">
+
                 <div class="title">
                     <h1>Imagens do Sistema</h1>
                 </div>
+
                 <div class="img-container">
                    
                 </div>
             </section>
             
-            <section id="sistema">
+            <section id="sistema" class="section">
                     <h1>Acesse o sistema</h1>
                     <button id="btn1">Área do Professor</button>
                     <button id="btn2">Área do Aluno</button>
             </section>
 
-            <section id="desenvolvedores">
+            <section id="desenvolvedores" class="section">
+
                 <div class="txt-left">
                     <h1>Desenvolvedores:</h1>
-                    <p>Matheus: Time Backend</p>
-                    <p>Matheus: Time Backend</p>
+                    <p><a href="https://github.com/matheussoares1" target="_blank">Matheus Soares</a> : Time Backend</p>
+                    <p><a href="https://github.com/Luis-Eduardo-Rodrigues" target="_blank">Luis Eduardo Rodrigues</a> : Time Frontend</p>
                     <p>Matheus: Time Backend</p>
                     <p>Matheus: Time Backend</p>
                     <p>Matheus: Time Backend</p>
@@ -82,29 +89,48 @@
                     
                 <div class="carrossel">
                     <div class="container" id="img">
-                            <img src="https://avatars.githubusercontent.com/u/130309482?v=4" alt="">
-                            <img src="https://avatars.githubusercontent.com/u/130309482?v=4" alt="">
-                            <img src="https://avatars.githubusercontent.com/u/130309482?v=4" alt="">
-                            <img src="https://avatars.githubusercontent.com/u/130309482?v=4" alt="">
-                            <img src="https://avatars.githubusercontent.com/u/130309482?v=4" alt="">
-                            <img src="https://avatars.githubusercontent.com/u/130309482?v=4" alt="">
-                            <img src="https://avatars.githubusercontent.com/u/130309482?v=4" alt="">
-                            <img src="https://avatars.githubusercontent.com/u/130309482?v=4" alt="">
+                        <img src="https://avatars.githubusercontent.com/u/130309482?v=4" alt="">
+                        <img src="https://avatars.githubusercontent.com/u/130309482?v=4" alt="">
+                        <img src="https://avatars.githubusercontent.com/u/130309482?v=4" alt="">
+                        <img src="https://avatars.githubusercontent.com/u/130309482?v=4" alt="">
+                        <img src="https://avatars.githubusercontent.com/u/130309482?v=4" alt="">
+                        <img src="https://avatars.githubusercontent.com/u/130309482?v=4" alt="">
+                        <img src="https://avatars.githubusercontent.com/u/130309482?v=4" alt="">
+                        <img src="https://avatars.githubusercontent.com/u/130309482?v=4" alt="">
                     </div>
                 </div>
+
             </section>
         </main>
-        <footer id="footer">
+        <footer id="footer" class="section">
             <section id="left">
                 <h1>Entre em contato:</h1>
                 <div id="contato">
-                    <i class="fa-brands fa-instagram" id="instagram"></i>
-                    <i class="fa-brands fa-facebook" id="facebook"></i>
-                    <i class="fa-brands fa-whatsapp" id="whatsapp"></i>
-                    <p>siteinstitucional@email.com</p>
+                   <a href="https://www.instagram.com/eeepmanoelmano/" target="_blank"><i class="fa-brands fa-instagram" id="instagram"></i></a>
+                    <a href="https://pt-br.facebook.com/EEEPManoelMano" target="_blank"><i class="fa-brands fa-facebook" id="facebook"></i></a>
+                    <a href="https://www.youtube.com/@eeepmanoelmanocrateus-ce8055" target="_blank"><i class="fa-brands fa-youtube" id="youtube"></i></a>
+                    <br>
+                    <a href="https://eeepmanoelmano.com.br/" id="site"><p>eeepmanoelmano.com.br</p></a>
                 </div>
+            </section>
+
+            <section id="right">
+                <div id="courses-links">
+                    <a href="#">Informática</a>
+                    <a href="#">Enfermagem</a>
+                    <a href="#">Comércio</a>
+                    <a href="#">Administração</a>
+                </div>
+                <br>
+                <div id="more-links">
+                    <a href="#">Equipe de desenvolvimento</a>
+                    <a href="#">Grupo Gestor</a>
+                </div>
+
+                <p id="copyright">&copy; 2023 EEEP MANOEL MANO - CRATEÚS TODOS OS DIREITOS RESERVADOS.</p>
             </section>
         </footer>
         <script src="script.js"></script>
+        <script src="scroll.js"></script>
     </body>
 </html>
